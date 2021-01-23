@@ -2,3 +2,5 @@
 ESERCIZI SCHEDA 
 
 ESERCIZI 13 e 14 a pag 72 e 32 a pag 73
+
+EERCIZI 15, 16 e 17 a pag 189 (dictionary)
