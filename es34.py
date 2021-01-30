@@ -1,15 +1,18 @@
-#esercizio 34 pag 191 
-#Le prenotazioni per la partecipazione a un convegno sono memorizzati secondo l'ordine di arrivo 
-#(suggerimento utilizza una struttura di coda per memorizzare i dati dei partecipanti). 
-#Scrivi un programma che comprenda due funzionalità: 
-#- operazione per registrare i dati dei partecipanti.
-#- L'operazione per visualizzare i nomi dei partecipanti a cui si deve inviare una lettera di conferma: si tratta dei nomi dell'elenco,
-#eliminando quelli ai quali la lettera è già stata inviata e che sono registrati in un apposito elenco. La funzione che produce l'elenco deve anche aggiornare 
-#l'elenco dei partecipanti ai quali è già stata inviata la lettera.
+'''
+esercizio 34 pag 191 
+Le prenotazioni per la partecipazione a un convegno sono memorizzati secondo l'ordine di arrivo 
+(suggerimento utilizza una struttura di coda per memorizzare i dati dei partecipanti). 
+Scrivi un programma che comprenda due funzionalità: 
+- operazione per registrare i dati dei partecipanti.
+- L'operazione per visualizzare i nomi dei partecipanti a cui si deve inviare una lettera di conferma: si tratta dei nomi dell'elenco,
+eliminando quelli ai quali la lettera è già stata inviata e che sono registrati in un apposito elenco. La funzione che produce l'elenco deve anche aggiornare 
+l'elenco dei partecipanti ai quali è già stata inviata la lettera.
+'''
 partecipanti = []
 ricevuti = []
 non_ricevuti = []
 dizionario = []
+
 #chiedo i nomi dei partecipanti
 print("scrivi 1 per terminare")
 while True : 
@@ -18,7 +21,7 @@ while True :
         break 
     else : 
         partecipanti.append(nome)
-
+        
 #chiedo i dati dei partecipanti 
 for n in partecipanti: 
     print(n, "inserisci i tuoi dati : ")
@@ -38,3 +41,4 @@ for n in partecipanti :
     else : 
         non_ricevuti.append(n)
 print("si deve ancora inviare la lettera alle seguenti persone ", non_ricevuti)
+
