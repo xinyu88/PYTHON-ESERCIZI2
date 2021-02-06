@@ -4,9 +4,7 @@ che ha per chiave la matricola, mentre il valore associato è il voto.
 Elenca i risultati in ordine crescente di voto e successivamente visualizza quali voti diversi tra loro 
 sono stati assegnati, riducendo a uno i voti uguali.
 '''
-
 s = 0 # conto i studenti
-
 #chiedo i voti ai studenti 
 lista = {} 
 for e in range(4) : 
