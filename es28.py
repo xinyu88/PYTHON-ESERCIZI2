@@ -16,7 +16,6 @@ while True :
     else : 
         dcap[cap] = citta #CAP è la chiave
         dcitta[citta] = cap #citta è la chiave
-
 print("Dato il nome della città o il CAP, vuoi sapere la città o il CAP ? ")
 print("inserire 1. se vuoi sapere il nome della città corrispondente al CAP ")
 print("inserire 2. se vuoi sapere il cap")
