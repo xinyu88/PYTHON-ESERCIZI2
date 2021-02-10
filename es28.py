@@ -19,16 +19,17 @@ while True :
 print("Dato il nome della città o il CAP, vuoi sapere la città o il CAP ? ")
 print("inserire 1. se vuoi sapere il nome della città corrispondente al CAP ")
 print("inserire 2. se vuoi sapere il cap")
+
 r = int(input("risposta = "))
 if r == 1 : 
-    r_cap = int(input("inserisci il CAP : "))
-    if r_cap in dcap : 
-        print("la città avene come CAP", r_cap, "è", dcap[r_cap])
+    cap = int(input("inserisci il CAP : "))
+    if cap in dcap : 
+        print("la città avente come CAP", cap, "è", dcap[cap])
     else : 
-        print("Nessuna città avente CAP", r_cap)
+        print("Nessuna città avente CAP", cap)
 else : 
-    nome_citta = input("inserisci il nome della città di cui vuoi conoscere il CAP : ")
-    if nome_citta in dcitta : 
-        print("Il CAP di", nome_citta, "è", dcitta[nome_citta])
+    citta = input("inserisci il nome della città di cui vuoi conoscere il CAP : ")
+    if citta in dcitta : 
+        print("Il CAP di", citta, "è", dcitta[citta])
     else : 
-        print("Nessuna CAP della città", nome_citta)
+        print("Nessuna CAP della città", citta)
