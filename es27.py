@@ -3,7 +3,6 @@ Es 27 Organizza una rubrica con i nomi delle persone e i rispettivi numeri telef
 nome della persona, il programma visualizza il suo numero telefonico oppure un messaggio nel caso la
 persona non sia presente nella rubrica
 '''
-
 rubrica = {
     'maria' : '241 854 4843',
     'ilaria' : '654 589 7714',
