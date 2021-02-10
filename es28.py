@@ -6,7 +6,6 @@ nell'elenco. Analogamente, fornendo il CAP restituisce il nome della città oppu
 '''
 dcitta = {}
 dcap = {}
-
 print("inserisci 1 per terminare")
 while True : 
     cap = int(input("inserisci il CAP : "))
@@ -16,10 +15,10 @@ while True :
     else : 
         dcap[cap] = citta #CAP è la chiave
         dcitta[citta] = cap #citta è la chiave
+        
 print("Dato il nome della città o il CAP, vuoi sapere la città o il CAP ? ")
 print("inserire 1. se vuoi sapere il nome della città corrispondente al CAP ")
 print("inserire 2. se vuoi sapere il cap")
-
 r = int(input("risposta = "))
 if r == 1 : 
     cap = int(input("inserisci il CAP : "))
