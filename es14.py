@@ -5,7 +5,7 @@ il ruolo di chiave all'anno. Inserisci i dati da tastiera e memorizzari nel cont
 visualizzane il risultato 
 '''
 d = {}
-for v in range(1, 3) :
+for v in range(1, 11) :
     print("Anno", v) 
     dato = int(input("Numero degli occupati :"))
     d["anno",v] = dato
