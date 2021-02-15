@@ -12,3 +12,5 @@ for v in range(1, 3) :
 print(d)
 media = sum(d.values())/len(d)
 print("Ecco la media", float(media))
+
+
