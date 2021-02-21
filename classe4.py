@@ -25,13 +25,11 @@ class Atleta():
         d = {"nome" : self.name, "età" : self.age, "peso" : self.weight}
         print(d)
    
-a1 = Atleta("Alice", 19, "49 kg", True)
+a1 = Atleta("Alice", 19, "49kg", True)
 a1.team("Inter")
 a1.effettua_visita(False)
-a1.info()
 a1.dati()
-a2 = Atleta("Michele", 34, "78 kg", False)
+a2 = Atleta("Michele", 34, "78kg", False)
 a2.team("Reggiana")
 a2.effettua_visita(True)
-a2.info()
 a2.dati()
