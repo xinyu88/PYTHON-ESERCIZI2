@@ -3,7 +3,7 @@ Aggiungi alla classe Atleta un metodo chaimato effettua_visita che ponga l'attri
 '''
 
 class Atleta(): #definisco la classe 
-    def __init__(self, name, age, weight, visitaMedica): #inizializzazione attributi  self identifica la calsse stessa e consente al metodo di utilizzare gli attributi
+    def __init__(self, name, age, weight, visitaMedica):
         self.name = name
         self.age = age
         self.weight = weight
