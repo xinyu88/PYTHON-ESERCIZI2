@@ -24,8 +24,7 @@ class Atleta():
     def dati(self):
         d = {"nome" : self.name, "età" : self.age, "peso" : self.weight}
         print(d)
-        
-
+   
 a1 = Atleta("Alice", 19, "49 kg", True)
 a1.team("Inter")
 a1.effettua_visita(False)
