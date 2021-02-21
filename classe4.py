@@ -33,3 +33,5 @@ a2 = Atleta("Michele", 34, "78kg", False)
 a2.team("Reggiana")
 a2.effettua_visita(True)
 a2.dati()
+
+
