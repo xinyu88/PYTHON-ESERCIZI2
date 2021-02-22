@@ -12,7 +12,7 @@ class Atleta():
         print(self.name, self.age, self.weight)
         if self.visitaMedica == True :
             print(self.name, "ha ricevuto la visita medica")
-        if self.visitaMedica == False: 
+        else:
             print(self.name,"non ha ricevuto la visita medica")
     def team(self, name_team): 
         self.name_team = name_team
