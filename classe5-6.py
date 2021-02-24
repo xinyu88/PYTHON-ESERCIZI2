@@ -17,3 +17,5 @@ class Prodotto():
 p = Prodotto("prodotto", 2)
 p.info()
 p.assegna_prezzo()
+
+
