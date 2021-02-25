@@ -6,14 +6,14 @@ class Quadrato :
     def __init__(self, lato): 
         self.lato = lato
         
-    def perimeter(self): 
+    def calc_perimeter(self): 
         perimeter = self.lato * 4
         print("il perimetro è di", perimeter)
 
-    def area(self): 
+    def calc_area(self): 
         area = self.lato **2
         print("l'area è di", area)
         
 f = Quadrato(8)
-f.perimeter()
-f.area()
+f.calc_perimeter()
+f.calc_area()
