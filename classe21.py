@@ -14,7 +14,6 @@ class Motociclo():
         print("Colore :", self.color)
         print("Velocità :", self.speed)
 
-
 class Ciclomotore(Motociclo): 
     def __init__(self, name, color, speed, price):
         super().__init__(self, name, color, speed)
@@ -23,6 +22,7 @@ class Ciclomotore(Motociclo):
     def info_c(self) : 
         super().info()
         print("Prezzo =", self.price)
+        
 def main(): 
     nome = input("Nome: ")
     colore = input("Colore: ")
