@@ -1,7 +1,7 @@
 '''
 Descrivi la classe Quadrato del Problema 8 una nuova classe Rettangolo
 aggiungendo un secondo lato per l'altezza e scrivendo i metodi per il calcolo 
-del perimetro e dell'area
+del perimetro e dell'area.
 '''
 
 class Quadrato :
